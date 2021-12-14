@@ -5,36 +5,298 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
   </head>
   <style>
-    #Err{
+    #Err {
       margin-top: 120px;
     }
-  #Err-img{
-    width: 100%;
-    height: 400px;
-  }
-  #Err-blue{
-    border: 1px solid black;
-    width: 100%;
-    height: 70px;
-    background-color: rgb(135,206,235);
-    display: flex;
-    justify-content: space-around;
-    font-weight: 600;
-    align-items: center;
+    #Err-img {
+      width: 100%;
+      height: 400px;
+    }
+    #Err-blue {
+      /* border: 1px solid black; */
+      width: 100%;
+      height: 70px;
+      background-color: rgb(135, 206, 235);
+      display: flex;
+      justify-content: space-around;
+      font-weight: 600;
+      align-items: center;
+      margin-top: -10px;
+      color: rgb(44, 39, 39);
+      font-size: 17px;
+    }
+    #des {
+      margin-top: 80px;
+      margin-left: 150px;
+      font-weight: 700;
+      font-size: 22px;
+    }
+    #filters {
+      margin-top: 50px;
+      margin-left: 100px;
+      font-size: 20px;
+      margin-left: 150px;
+    }
+    #clear {
+      font-weight: 100;
 
-  }
+      margin-top: -23px;
+      margin-left: 170px;
+
+      font-size: 19px;
+      color: rgb(122, 120, 120);
+      text-decoration: underline;
+    }
+    #f-hr {
+      width: 240px;
+      height: 1px;
+      background-color: rgb(231, 226, 226);
+      border: none;
+      margin-left: 0px;
+      margin-top: 13px;
+    }
+    #plusicon {
+      margin-top: -20px;
+      margin-left: 190px;
+    }
+    #all-filter {
+      margin-left: 150px;
+    }
+    #all-filter div {
+      font-weight: 750;
+      font-size: 13px;
+      font-family: Roboto, sans-serif;
+      color: #181818;
+      line-height: 1.5;
+      letter-spacing: 1.5px;
+    }
+    #sort-by{
+      margin-top: 75px;
+
+      position: absolute;
+      margin-left: 1250px;
+      font-family: playerfair Display;
+      font-size: 17px;
+      font-weight: 400;
+     
+    }
+    #sort{
+      display: flex;
+      margin-top: 110px;
+      position: absolute;
+      margin-left: 800px;
+      font-size: 10px;
+      color: #8c8c8c;
+      font-family: Raleway;
+      letter-spacing: 2px;
+     
+    }
+    #sort > div{
+      margin-left: 8px;
+    }
   </style>
   <body>
-    <div id="Err"> 
-     <img id="Err-img" src="https://www.tanishq.co.in/wps/wcm/connect/tanishq/12edaf34-7dea-450d-951b-8a0258da4246/desktop/Capsule+Banners+Espot+1_Desktop_2500+x+712.jpg?MOD=AJPERES&CACHEID=ROOTWORKSPACE.Z18_90IA1H80O0RT10QIMVSTFU3006-12edaf34-7dea-450d-951b-8a0258da4246-desktop-nRl7d88"/>
-      
+    <div id="Err">
+      <img
+        id="Err-img"
+        src="https://www.tanishq.co.in/wps/wcm/connect/tanishq/12edaf34-7dea-450d-951b-8a0258da4246/desktop/Capsule+Banners+Espot+1_Desktop_2500+x+712.jpg?MOD=AJPERES&CACHEID=ROOTWORKSPACE.Z18_90IA1H80O0RT10QIMVSTFU3006-12edaf34-7dea-450d-951b-8a0258da4246-desktop-nRl7d88"
+      />
     </div>
     <div id="Err-blue">
-       <div>STORE lOCATOR</div>
-       <div> BOOK APPOINTMENT </div>
-       <div> LIVE VIDEO CALL</div>
+      <div>STORE lOCATOR</div>
+      <div>BOOK APPOINTMENT</div>
+      <div>LIVE VIDEO CALL</div>
     </div>
+    <div id="sort-by">Sort By </div>
+ <div id="sort">
+   
+    <div> BEST SELLERS &#8192;&#8192;|</div>
+    <div> NEW ARRIVALS &#8192;&#8192;|</div>
+    <div> POPULARITY &#8192;&#8192;|</div>
+    <div> DISCOUNT &#8192;&#8192;|</div>
+    <div> PRICE </div>   
+</div>
+
+    <div id="des">JEWELLERY | 15844</div>
+    <div id="filters">
+      <div>Filter By</div>
+      <div id="clear">Clear All</div>
+      <hr id="f-hr" />
+    </div>
+    <div id="all-filter">
+      <div id="p">
+        PRICE
+        <div id="plusicon"><span class="material-icons">&#xe145;</span></div>
+      </div>
+
+      <hr id="f-hr" />
+      <div>
+        JEWELLERY TYPE
+        <div id="plusicon"><span class="material-icons">&#xe145;</span></div>
+      </div>
+
+      <hr id="f-hr" />
+      <div>
+        PRODUCT
+        <div id="plusicon"><span class="material-icons">&#xe145;</span></div>
+      </div>
+
+      <hr id="f-hr" />
+      <div>
+        GENDER
+        <div id="plusicon"><span class="material-icons">&#xe145;</span></div>
+      </div>
+
+      <hr id="f-hr" />
+      <div>
+        DISCOUNTS
+        <div id="plusicon"><span class="material-icons">&#xe145;</span></div>
+      </div>
+
+      <hr id="f-hr" />
+      <div>
+        COIN WEIGHT
+        <div id="plusicon"><span class="material-icons">&#xe145;</span></div>
+      </div>
+
+      <hr id="f-hr" />
+      <div>
+        METAL COLOR
+        <div id="plusicon"><span class="material-icons">&#xe145;</span></div>
+      </div>
+
+      <hr id="f-hr" />
+      <div>
+        TYPE
+        <div id="plusicon"><span class="material-icons">&#xe145;</span></div>
+      </div>
+
+      <hr id="f-hr" />
+      <div>
+        PURITY
+        <div id="plusicon"><span class="material-icons">&#xe145;</span></div>
+      </div>
+
+      <hr id="f-hr" />
+      <div>
+        OCCASION
+        <div id="plusicon"><span class="material-icons">&#xe145;</span></div>
+      </div>
+
+      <hr id="f-hr" />
+      <div>
+        METAL
+        <div id="plusicon"><span class="material-icons">&#xe145;</span></div>
+      </div>
+
+      <hr id="f-hr" />
+      <div>
+        PRODUCT WIDTH
+        <div id="plusicon"><span class="material-icons">&#xe145;</span></div>
+      </div>
+
+      <hr id="f-hr" />
+      <div>
+        DIAMOND CLARITY
+        <div id="plusicon"><span class="material-icons">&#xe145;</span></div>
+      </div>
+
+      <hr id="f-hr" />
+      <div>
+        COLLECTION
+        <div id="plusicon"><span class="material-icons">&#xe145;</span></div>
+      </div>
+
+      <hr id="f-hr" />
+      <div>
+        WAIST BELT SIZE
+        <div id="plusicon"><span class="material-icons">&#xe145;</span></div>
+      </div>
+
+      <hr id="f-hr" />
+      <div>
+        PENDANT HEIGHT
+        <div id="plusicon"><span class="material-icons">&#xe145;</span></div>
+      </div>
+
+      <hr id="f-hr" />
+      <div>
+        PENDANT WIDTH
+        <div id="plusicon"><span class="material-icons">&#xe145;</span></div>
+      </div>
+
+      <hr id="f-hr" />
+      <div>
+        EARRING HEIGHT
+        <div id="plusicon"><span class="material-icons">&#xe145;</span></div>
+      </div>
+
+      <hr id="f-hr" />
+      <div>
+        EARRING WIDTH
+        <div id="plusicon"><span class="material-icons">&#xe145;</span></div>
+      </div>
+
+      <hr id="f-hr" />
+      <div>
+        COMMUNITY
+        <div id="plusicon"><span class="material-icons">&#xe145;</span></div>
+      </div>
+
+      <hr id="f-hr" />
+      <div>
+        FORM
+        <div id="plusicon"><span class="material-icons">&#xe145;</span></div>
+      </div>
+
+      <hr id="f-hr" />
+      <div>
+        VIRTUAL TRYON
+        <div id="plusicon"><span class="material-icons">&#xe145;</span></div>
+      </div>
+    </div>
+    <div id="wall"> </div>
   </body>
 </html>
+
+<script>
+
+let wall = document.getElementById("wall")
+
+
+  async function prod(){
+    try{
+  let res = await fetch(`https://fakestoreapi.com//products/category/jewelery`)
+  let data = await res.json()
+  console.log('data:', data)
+  totalProd(data)
+
+  
+} catch (err){
+  console.log('err:', err)
+
+}
+  }
+prod()
+function totalProd(all){
+  all.forEach(function(products){
+    let div = document.createElement("div")
+
+    let title = document.createElement("h5")
+    title.innerText = products.title
+
+    let price = document.createElement("h5")
+    price.innerText = products.price
+
+    div.append(title, price)
+    wall.append(div)
+  })
+}
+totalProd()
+</script>
