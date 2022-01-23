@@ -30,6 +30,19 @@
 - After filling all the details including payment details then click on pay button.As we have intregrated Razorpay, user can pay either via netbanking or via credit and debit card
 - After payment has completed successfully then he/she will be redirected to landing page.
 
+## Tech Stack Used 🔧
+
+`JAVASCRIPT`
+`HTML`
+`CSS`
+`EXPRESS`
+`MONGOOSE`
+`MONGODB ATLAS`
+`JSON WEB TOKEN`
+`RAZORPAY`
+`BCRYPT`
+
+
 
 
 
