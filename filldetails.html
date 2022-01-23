@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="payment.css">
+    <link rel="shortcut icon" href="https://www.tanishq.co.in/favicon.png" type="image/png">
+    <script src="https://checkout.razorpay.com/v1/checkout.js"></script>
+</head>
+<body>
+    <div id="logo">
+            
+        <img src="https://www.tanishq.co.in/wps/wcm/connect/tanishq/cb53f671-01d0-449e-b18d-a4e61e6ffa0b/TanishqLogo.png?MOD=AJPERES&CACHEID=ROOTWORKSPACE.Z18_90IA1H80O0RT10QIMVSTFU3006-cb53f671-01d0-449e-b18d-a4e61e6ffa0b-mC036IT"  alt="">
+        
+    </div>
+    <!-- <div id="contact">
+        <p>DO YOU HAVE A QUESTION? <br>
+           <span id="contact2"> CALL US ON <span id="number">1800-266-0123</span> </span></p>
+    </div> -->
+    <div id="fill-details">
+        <p>In order to deliver your order. we need to gather some information <br>
+            from you.Please fill the form below.
+        </p>
+        <h1>YOUR PERSONAL DETAILS</h1>
+        <label for="">TITLE *</label>
+        <br>
+        <br>
+        <select name="" id="select">
+            <option value="">Select Title</option>
+            <option value="">Mr</option>
+            <option value="">Ms</option>
+        </select>
+        <br>
+        <label for="">FIRST NAME *</label>
+        <br>
+        <input type="text" name="" id="input">
+        <br>
+        <label for="">LAST NAME *</label>
+        <br>
+        <input type="text" name="" id="input">
+        <br>
+        <label for="">EMAIL ADDRESS *</label>
+        <br>
+        <input type="text" name="" id="input">
+        <br>
+        <label for="">PHONE NUMBER *</label>
+        <br>
+        <input type="number" name="" id="input">
+        <h1>
+            DELIVERY DETAILS
+        </h1>
+        <br>
+        <input type="checkbox" name="" id=""> <span>Use personal details to deliver your items</span>
+        <br>
+        <label for="">COUNTRY *</label>
+        <br>
+        <select name="" id="select">
+            <option value="">India</option>
+            
+        </select>
+        <br>
+
+        <label for="">PIN-CODE/ZIP-CODE</label>
+        <br>
+        <input type="number" id="input" placeholder="6 Digit pincode">
+        <br>
+
+        <label for="">STATE *</label><br>
+        <input type="text" id="input" >
+        <br>
+
+        <label for="">CITY *</label><br>
+        <input type="text" id="input" >
+        <br>
+        <label for="">STREET ADRESS / BUILDING / LOCALITY</label>
+        <br>
+        <input type="text" id="input" placeholder="Flat no, House no, Street name">
+        <br>
+        <label for="">You have 210 characters left out of 210.</label>
+        <br>
+        <br>
+        <label for="">NICK NAME</label>
+        <br>
+        <input type="text" id="input" >
+        <br>
+        <label for="">ALTERNATE MOBILE NUMBER(OPTIONAL)</label>
+        <br>
+        <input type="text" id="input" >
+        <br>
+        <br>
+        <button id="btn">CONTINUE TO PAYMENT</button>
+    </div>
+</body>
+</html>
+
+<script src="filldetails.js"></script>
