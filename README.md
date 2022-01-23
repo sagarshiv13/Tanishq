@@ -18,6 +18,15 @@
  - <a href="https://github.com/Aman974">Aman Tiwari</a>
 - <a href="https://github.com/Sou156">Soumili Chatterjee</a>
 - <a href="https://github.com/sagarshiv13">Sagar Shivshankar Vyankat</a>
+
+### Pages & Features 👇
+- `Sign-Up Page`: User details validated directly from backend.
+-  `Sign-In Page`: User authentication to check whether user email and password match with details existing in the database.
+-  `Product Category Page`:  Products created dynamically, with sorting and filtering features.
+-  `Cart Page`: User can see or remove products added in the cart.
+-  `Payment Page`: PayPal payment option. Users can add their payment details and also avail for discount.
+-  `Additional Features`: Kept the branding, fonts, colors and favicon and titles consistent throughtout the whole site to give a feel like the original site.
+
 ## How To Use ✅
 
  - At First user has to click on login on landing page. User have to signup if he does not have an account. In signup page user has to fill all the fields in the form.
