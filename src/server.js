@@ -50,7 +50,7 @@ app.get("/payment",(req,res)=>{
     // return res.render("payment")
 })
 
-    app.listen(3456, async () =>{
+    app.listen(PORT, async () =>{
        try {
            await connect()
            console.log("Server is live");
