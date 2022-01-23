@@ -32,23 +32,15 @@
 
 ## Tech Stack Used 🔧
 
-`JAVASCRIPT`
-
-`HTML`
-
-`CSS`
-
-`EXPRESS`
-
-`MONGOOSE`
-
-`MONGODB ATLAS`
-
-`JSON WEB TOKEN`
-
-`RAZORPAY`
-
-`BCRYPT`
+- `JAVASCRIPT`
+- `HTML`
+- `CSS`
+- `EXPRESS`
+- `MONGOOSE`
+- `MONGODB ATLAS`
+- `JSON WEB TOKEN`
+- `RAZORPAY`
+- `BCRYPT`
 
 
 
