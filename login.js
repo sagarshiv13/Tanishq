@@ -1,5 +1,5 @@
 async function login() {
-    let res = await fetch("http://localhost:3456/users");
+    let res = await fetch("https://tanishq-clone-2.herokuapp.com/users");
     let data = await res.json();
     console.log("data:", data);
     forCheck(data);

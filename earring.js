@@ -17,7 +17,7 @@
   async function getProducts(){
     
     
-   let response = await fetch("http://127.0.0.1:3456/products") 
+   let response = await fetch("https://tanishq-clone-2.herokuapp.com/products") 
    data = await response.json()
    console.log('data:', data)
    totalProd(data);
