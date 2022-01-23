@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Document</title>
+    </head>
+  
+    <style>
+      div {
+        width: 13%;
+      }
+      input,
+      button {
+        margin-top: 10px;
+      }
+    </style>
+    <body>
+      <div>
+        <h1>Add Product</h1>
+        <input type="number" placeholder="id" id="id" />
+  
+        <input type="name" placeholder="name" id="name" />
+  
+        <input type="number" placeholder="price" id="price" />
+        <input type="text" placeholder="url" id="image" />
+        
+  
+        <button onclick="addProduct()">Add Product</button>
+      </div>
+  
+      <div>
+        <h1>Delete Product</h1>
+  
+        <input type="text" id="delete_id" placeholder="Enter id to Delete" />
+  
+        <button onclick="deleteProduct()">Delete Product</button>
+      </div>
+      <div>
+        <h1>Update Product</h1>
+  
+        <input type="text" id="update_id" placeholder="Enter id to Update" />
+       
+  
+        <input type="name" placeholder="name" id="name1" />
+  
+        <input type="number" placeholder="price" id="price1" />
+        <input type="text" placeholder="url" id="image1" />
+        
+  
+        <button onclick="updateProduct()">Update Product</button>
+      </div>
+    </body>
+  </html>
+  <script>
+      async function addProduct(){
+          var product = {
+              id: document.getElementById("id").value,
+              name:document.getElementById("name").value,
+              price:document.getElementById("price").value,
+              image : document.getElementById("image").value
+          }
+         var res = await fetch("http://127.0.0.1:5000/api/products",{
+             method:"POST",
+             body:JSON.stringify(product),
+             headers:{
+               "Content-Type":"application/json"
+             },
+         });
+         var data = await res.json()
+         console.log(data)
+      }
+      async function deleteProduct(){
+        var id = document.getElementById("delete_id").value
+        var res = await fetch(`http://127.0.0.1:5000/api/products/${id}`,{
+            method:"DELETE",
+            headers:{
+                "Content-Type":"application/json"
+            },
+        });
+        let data = await res.json();
+
+      }
+      async function updateProduct(){
+ var id = document.getElementById("update_id").value
+ var product = {
+             
+              name:document.getElementById("name1").value,
+              price:document.getElementById("price1").value,
+              image : document.getElementById("image1").value
+          }
+          
+  var res = await fetch(`http://127.0.0.1:5000/api/products/${id}`,{
+      method:"PUT",
+      body:JSON.stringify(product),
+      headers:{
+        "Content-Type":"application/json"
+      }
+  })
+  let data = await res.json()
+           console.log(data)
+      }
+     
+  </script>
+  
