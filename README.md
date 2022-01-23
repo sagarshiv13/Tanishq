@@ -65,6 +65,7 @@
 ![image](https://user-images.githubusercontent.com/76393496/150675390-618fd263-0924-4915-af73-4657ad221935.png)
 
 ### Payment Page 
+![image](https://user-images.githubusercontent.com/76393496/150677293-8f8ff916-fda6-44ed-903b-97f87a6f8d2a.png)
 
 
 
