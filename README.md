@@ -42,6 +42,22 @@
 - `RAZORPAY`
 - `BCRYPT`
 
+## Screenshots
+
+### Home Page
+
+![image](https://user-images.githubusercontent.com/76393496/150675291-fafc381d-8ccf-4a0a-9c95-effdb9237700.png)
+
+### Products Page 
+
+![image](https://user-images.githubusercontent.com/76393496/150675333-f6a1468c-0951-4504-86f1-3c41fa1b0e27.png)
+
+### Cart Page 
+![image](https://user-images.githubusercontent.com/76393496/150675390-618fd263-0924-4915-af73-4657ad221935.png)
+
+### Payment Page 
+
+
 
 
 
