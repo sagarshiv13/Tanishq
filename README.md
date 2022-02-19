@@ -4,7 +4,7 @@
  
  ## About This Project
 
- #### Tanishq is an Indian jewellery brand and a division of Titan Company. Founded in 1994, Tanishq is headquartered in Bangalore, Karnataka, India.This is a team project, built by us in the Construct Week - Unit 4 at Masai School.
+ #### Build an online store using HTML, CSS and Js. For Backend we used nodeJs MongoDb and express.Integrated Razorpay API for Payment and also added promocode,add to cart,sorting Functionality.This is a team project, built by us in the Construct Week - Unit 4 at Masai School.
 
 ### Presentation Video
 
